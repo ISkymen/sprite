@@ -1,0 +1,32 @@
+{
+  "name": "sprite",
+  "version": "1.0.0",
+  "description": "Sprite generator",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ISkymen/sprite.git"
+  },
+  "keywords": [
+    "sprite",
+    "generator",
+    "gulp",
+    "spritesmith"
+  ],
+  "author": "Skymen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISkymen/sprite/issues"
+  },
+  "homepage": "https://github.com/ISkymen/sprite#readme",
+    "dependencies": {
+    "gulp": "^3.9.1",
+	"gulp.spritesmith": "^6.3.0",
+	"gulp-imagemin": "^3.1.1",
+	"vinyl-buffer": "^1.0.0",
+	"merge-stream": "^1.0.1"
+  }
+}
